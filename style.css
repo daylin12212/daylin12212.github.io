@@ -21,8 +21,8 @@ body {
     border-radius: 10px;
 }
 #datosPersonales {
-    border: 3px solid black;
-    border-radius: 12px;
+    border: 3px solid #dcdaf9;
+    border-radius: 20px;
     background-color: #dcdaf9;
     text-align: center;
 }
@@ -46,32 +46,32 @@ body {
     margin-bottom: 10px;
 }
 #datosAcademicos {
-    border: 3px solid black;
-    border-radius: 12px;
+    border: 3px solid #dcdaf9;
+    border-radius: 20px;
     background-color: #ffe5d9;
     text-align: center;
 }
 #sobreMi {
-    border: 3px solid black;
-    border-radius: 12px;
+    border: 3px solid #dcdaf9;
+    border-radius: 20px;
     background-color: #ffe5d9;
     text-align: center;
 }
 #pie{
     color: rgb(0, 0, 0);
     text-align: center;
-    border-radius: 12px;
+    border-radius: 20px;
     background-color: #c4c7fd;
 }
 #linkedin {
     width: 40px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 #github {
     width: 40px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 #contacto {
     text-align: center;
@@ -84,8 +84,8 @@ body {
     padding-left: 0;
 }
 #Proyectos {
-    border: 3px solid black;
-    border-radius: 12px;
+    border: 3px solid #dcdaf9;
+    border-radius: 20px;
     background-color: #ffe5d9;
     text-align: center;
 }
@@ -95,7 +95,7 @@ body {
 #img1, #img2, #img3, #img4, #img5{
     height: 400px;
     width: 400px;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 5px solid #c4c7fd;
     text-align: right;
     right: 100%;
