@@ -11,22 +11,22 @@
         <tr>
             <th>
                 <div id="Despliegue">
-                    <button id="botonDespliegue">Click to Expand ⬇</button>
-            
-                    <div id="contenido" style="display: none;">
-                    <button id="inicio">Home</button>
-                    <button id="Proyecto1">Project 1</button>
-                    <button id="Proyecto2">Project 2</button>
-                    <button id="Proyecto3">Project 3</button>
-                    <ul id="listaResultados" style="display: none;"></ul>
+                    <select id="botonDespliegue">
+                        <option value="porDefecto" disabled selected hidden onclick="window.location.href='index.html'">Despliega aqui ⬇</option>
+                        <option value="index.html">Inicio</option>
+                        <option value="cartas.html">Projet 1</option>
+                        <option value="mapa.html">Projet 2</option>
+                        <option value="calcured.html">Projet 3</option>
+                        <option value="Velneo.html">Projet 4</option>
+                    </select>
                 </div>
             </th>
             <td>
                 <div>
-                    <button onclick="window.location.href='index.html'" id="Traducir">Spanish</button>
+                    <button  onclick="window.location.href='ingles.html'" id="Traducir">Spanish</button>
                 </div>
+
             </td>
-        </tr>
     </table>
 
     <h1 id="titulo">Welcome to my digital portfolio</h1>
