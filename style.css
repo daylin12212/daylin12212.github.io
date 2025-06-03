@@ -6,7 +6,7 @@
 }
 body {
     font-family: "Homer Simpson UI";
-    background-color: #d490be;
+    background-color: #c4c7fd;
     margin: 0;
     padding: 20px;
 }
@@ -31,7 +31,7 @@ body {
     grid-template-columns: 1fr 1fr; /* dos columnas de igual tamaño */
     gap: 1rem; /* espacio entre columnas y filas */
     padding: 1rem;
-    background: #d490be;
+    background: #c4c7fd;
     border-radius: 8px;
 }
 #contenedor div:first-child {
@@ -48,20 +48,20 @@ body {
 #datosAcademicos {
     border: 3px solid black;
     border-radius: 12px;
-    background-color: #dcdaf9;
+    background-color: #ffe5d9;
     text-align: center;
 }
 #sobreMi {
     border: 3px solid black;
     border-radius: 12px;
-    background-color: #dcdaf9;
+    background-color: #ffe5d9;
     text-align: center;
 }
 #pie{
     color: rgb(0, 0, 0);
     text-align: center;
     border-radius: 12px;
-    background-color: #d490be;
+    background-color: #c4c7fd;
 }
 #linkedin {
     width: 40px;
@@ -86,6 +86,9 @@ body {
 #Proyectos {
     border: 3px solid black;
     border-radius: 12px;
-    background-color: #dcdaf9;
+    background-color: #ffe5d9;
     text-align: center;
+}
+#datosPersonales {
+    background-color: #ffe5d9;
 }
