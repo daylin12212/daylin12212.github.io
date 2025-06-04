@@ -125,6 +125,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1.5rem;
+        
     }
     /* Si usas un contenedor tipo flex o tabla para las imágenes, fuerza el apilado */
     .imagenes-proyecto,
@@ -149,14 +150,6 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-
-    #abajo {
-    padding: 10px;
-    text-align: center;
-    text-align: center;
-    margin-top: 10px;
-    }
-
     table, tr, th, td {
         display: block;
         width: 100%;
