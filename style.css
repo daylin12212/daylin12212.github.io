@@ -16,9 +16,14 @@ body {
    border-radius: 10px;
 }
 #Traducir{
-    background-color: #ffffff; 
-    border: oldlace;
+    background-color: #c4c7fd; 
+    border: #c4c7fd;
     border-radius: 10px;
+}
+#eeuu{
+    height: 17px; 
+    height: 17px;
+    border-radius: 20px;
 }
 #datosPersonales {
     border: 3px solid #dcdaf9;
@@ -28,17 +33,17 @@ body {
 }
 #contenedor {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* dos columnas de igual tamaño */
-    gap: 1rem; /* espacio entre columnas y filas */
-    padding: 1rem;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0.5rem; 
+    padding: 0.5rem;
     background: #c4c7fd;
     border-radius: 8px;
 }
 #contenedor div:first-child {
-  grid-column: 1 / 3; /* Hace que el primer hijo ocupe las 2 columnas */
+  grid-column: 1 / 3; 
 }
 #contenedor div:nth-child(4) {
-  grid-column: 1 / 3; /* ocupa 3 columnas */
+  grid-column: 1 / 3; 
 }
 #datosPersonales h2 {
     color: #333;
@@ -93,13 +98,64 @@ body {
     background-color: #ffe5d9;
 }
 #img1, #img2, #img3, #img4, #img5{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 20px;
     border: 5px solid #c4c7fd;
     text-align: right;
     right: 100%;
+    margin-bottom: 0.5rem;
 }
 #carta1{
     text-align: left;
+}
+
+
+@media (max-width: 600px) {
+  #titulo {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  #contenedor {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  #contenedor div:first-child,
+  #contenedor div:nth-child(2) {
+    grid-template-columns: 1;
+    gap: 0.5rem;
+  }
+    #contenedor div:nth-child(3) {
+    grid-template-columns: 1;
+    gap: 0.5rem;
+  }
+    #contenedor div:nth-child(4) {
+    grid-template-columns: 1;
+    gap: 0.5rem;
+  }
+    #contenedor div:nth-child(5) {
+    grid-template-columns: 1;
+    gap: 0.5rem;
+  }
+
+  #img1, #img2, #img3, #img4, #img5 {
+    width: 100%;
+    height: auto;
+  }
+
+  #linkedin,
+  #github {
+    width: 30px;
+    height: 30px;
+  }
+
+  #datosPersonales h2 {
+    font-size: 20px;
+  }
 }
