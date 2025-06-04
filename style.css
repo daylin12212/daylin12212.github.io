@@ -111,51 +111,37 @@ body {
 }
 
 
-@media (max-width: 600px) {
-  #titulo {
-    font-size: 24px;
-    margin-top: 10px;
-  }
-
-  body {
-    padding: 10px;
-  }
-
-  #contenedor {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-  }
-
-  #contenedor div:first-child,
-  #contenedor div:nth-child(2) {
-    grid-template-columns: 1;
-    gap: 0.5rem;
-  }
-    #contenedor div:nth-child(3) {
-    grid-template-columns: 1;
-    gap: 0.5rem;
-  }
-    #contenedor div:nth-child(4) {
-    grid-template-columns: 1;
-    gap: 0.5rem;
-  }
-    #contenedor div:nth-child(5) {
-    grid-template-columns: 1;
-    gap: 0.5rem;
-  }
-
-  #img1, #img2, #img3, #img4, #img5 {
+@media (max-width: 650px) {
+    #img1, #img2, #img3, #img4, #img5 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+    }
+    /* Si usas un contenedor tipo flex o tabla para las imágenes, fuerza el apilado */
+    .imagenes-proyecto,
+    .imagenes-proyecto table,
+    .imagenes-proyecto tr {
+        display: block !important;
+        width: 100%;
+    }
+    #contenedor div:nth-child(2) {
+    grid-column: 1 / 3; 
     width: 100%;
-    height: auto;
-  }
-
-  #linkedin,
-  #github {
-    width: 30px;
-    height: 30px;
-  }
-
-  #datosPersonales h2 {
-    font-size: 20px;
-  }
+    margin-left: auto;
+    }
+    #contenedor div:nth-child(3) {
+    grid-column: 1 / 3; 
+    width: 100%;
+    margin-left: auto;
+    }
+    #despliegue {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
