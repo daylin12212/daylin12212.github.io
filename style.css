@@ -112,9 +112,15 @@ body {
 
 
 @media (max-width: 650px) {
+    body {
+        padding: 10px;
+        display: block;
+        width: 95%;
+        height: auto;
+    }
     #img1, #img2, #img3, #img4, #img5 {
         display: block;
-        width: 100%;
+        width: 93%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -143,5 +149,16 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
+    #abajo {
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    table, tr, th, td {
+        display: block;
+        width: 100%;
+    }
 }
