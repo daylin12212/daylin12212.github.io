@@ -15,7 +15,12 @@ body {
    border: oldlace;
    border-radius: 10px;
 }
-#Traducir{
+#Traduciri{
+    background-color: #c4c7fd; 
+    border: #c4c7fd;
+    border-radius: 10px;
+}
+#Traducire{
     background-color: #c4c7fd; 
     border: #c4c7fd;
     border-radius: 10px;
@@ -117,6 +122,29 @@ body {
 
 
 @media (max-width: 650px) {
+    #inicio{
+    background-color: #ffffff; 
+    border: #c4c7fd;
+    border-radius: 10px;
+    position: fixed;
+    top: 5px;
+    left: 2px;
+    }
+    #botonDespliegue{
+    position: fixed;
+    top: 5px;
+    left: 50px; 
+    }
+    #Traduciri{
+    position: fixed;
+    top: 5px;
+    left: 200px; 
+    }
+    #Traducire{
+    position: fixed;
+    top: 5px;
+    left: 240px; 
+    }
     body {
         padding: 10px;
         display: block;
